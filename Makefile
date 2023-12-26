@@ -7,7 +7,7 @@ RESET_COLOR			:=	\033[0m
 NAME = webserv
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
-FSANITIZE = -g3 -fsanitize=address
+FSANITIZE =   -fsanitize=address
 
 FILES =	main.cpp \
 		Printers.cpp \
@@ -18,6 +18,7 @@ FILES =	main.cpp \
 		run.cpp \
 		Requests.cpp \
 		Client.cpp \
+		Response.cpp \
 
 INCLUDE_DIR = include
 
